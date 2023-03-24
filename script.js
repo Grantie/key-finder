@@ -27,7 +27,7 @@ function newKey() {
     currentCharacter = randomCharacter;
     document.querySelector(".letter").innerHTML = currentCharacter;
     interval = setTimeout(lose, intervalTime * 1000);
-    intervalTime = intervalTime - 0.2;
+    intervalTime = intervalTime - 0.1;
 }
 
 document.addEventListener("keypress", (e) => {
